@@ -1,50 +1,63 @@
-UNBOUND — GITHUB PAGES UPLOAD
+UNBOUND — OPTION A HOMEPAGE WITH LINK PREVIEW
 
-Keep the homepage filename exactly index.html. It does not need to match the
-repository name. The HTML already works at a repository subpath and contains
-all required images, styles and scripts. No HTML edits or build are needed.
+Main shareable address: https://samjomo.github.io/unbound/
 
-The link supplied was https://github.com/samjomo/unbound . For that repository,
-the default website address will be https://samjomo.github.io/unbound/ .
-You also referred to the repository as "Unbounded". If that is its actual name,
-use that exact repository name in the website address. This difference does not
-affect the HTML. Repository settings have not been accessed or changed.
+For this existing GitHub Pages repository, upload the updated index.html AND
+unbound-share.png to the repository root and commit to main. The HTML replaces
+the current homepage; the PNG supplies its link-preview image.
+The filename stays index.html; it does not need to match the repository name.
 
-1. Unzip unbound-github-pages.zip.
-2. Upload index.html and .nojekyll directly to the top level of your repository.
-   Do not upload the ZIP itself, or place index.html inside an extra folder.
-   .nojekyll is a hidden, empty file; if it is not visible in your file picker,
-   you can create a file named .nojekyll directly in GitHub.
-3. In your repository, open Settings > Pages.
-4. Under Build and deployment, select Deploy from a branch.
-5. Select the branch containing index.html (usually main), choose /(root), Save.
-6. Wait for deployment, then use Visit site in the Pages settings screen.
+1. Open https://github.com/samjomo/unbound in your signed-in browser.
+2. Choose Add file > Upload files.
+3. Select index.html and unbound-share.png from this package, keeping those names.
+4. Commit directly to main. Suggested message: Update UNBOUND carousel and sharing thumbnail.
+5. Wait for the Pages deployment to complete, then refresh the main shareable address.
 
-index.html: the complete website preview.
-.nojekyll: asks GitHub Pages to serve these static files without Jekyll.
-GITHUB-PAGES.txt: these instructions; uploading this file is optional.
+The existing .nojekyll and Pages settings can remain. If setting up a new copy,
+upload index.html, unbound-share.png and .nojekyll to the root, then use main / (root) as the Pages
+publishing source. Upload extracted files, not this ZIP.
 
-MOBILE VIEW
-At 767px wide and below, the two images stack vertically. Each fills half the
-screen height, with the seam exactly aligned to the centre of the UNBOUND logo.
-The mobile logo spans 79.36% of screen width, 28% larger than the previous mobile
-size, with proportional height. Desktop remains at 62% width.
-The same pairs and alternating timing are used on desktop and mobile: left/top
-changes first, right/bottom follows 1.2 seconds later, and the next left/top
-change follows 1.6 seconds after that. Images fill each panel with slight crop.
-The top-left hamburger opens a full-screen colour menu over a 50%-opacity black
-backdrop. Large uppercase labels scale with the screen and retain 10% side
-margins. Selecting a colour closes the menu. Desktop retains side-by-side images.
-No additional files, libraries or server configuration are required.
+All photographs, logo outlines, menu lettering, styles and JavaScript are embedded
+in index.html. No build process, font download or other asset folder is required.
+The separate unbound-share.png is required for social/link previews.
+GITHUB-PAGES.txt is optional documentation; it does not need to be uploaded.
 
-The special repository name samjomo.github.io is needed only for an account
-homepage at https://samjomo.github.io/ . A project repository such as unbound
-can keep its own name; its homepage is still index.html.
+LINK PREVIEW
+The static 1200 x 630 PNG uses the portrait of two women and red chair filled
+with soft toys, side by side, with the Hot Coral logo. It contains no navigation or browser controls. The homepage
+includes Open Graph and large-image card metadata pointing to this public image:
+https://samjomo.github.io/unbound/unbound-share.png?v=2
 
-Official GitHub instructions checked 11 November 2026:
-https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
-https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+After deployment, open that image address to confirm it loads, then share the
+main homepage link. Receiving apps decide how to display and cache previews;
+an existing message may keep its old preview. The thumbnail stays Hot Coral
+regardless of the colour a visitor selects on the interactive website.
 
-The packaged photos are reference imagery from Mother Tongue; replace them with
-owned or licensed imagery before public launch. This package has not been
-uploaded or published by the assistant.
+INCLUDED
+- Twelve embedded images in six pairs, including the new roses/red drawing and
+  cafe portrait/red chair pairs. The alternating timing remains unchanged.
+- Option A's firm iPhone top edge and normal scrolling into the lower content.
+- Side-by-side desktop photographs, equal stacked mobile photographs.
+- Desktop logo width 62%; mobile 79.36%, both proportional and centred on the seam.
+- Six working colour selections and the Acid Citron/Hot Coral selected-state rule.
+- Condensed uppercase mobile menu lettering over a 50% black overlay.
+- No bottom preview or pause controls.
+- One full viewport-height #f5f4f0 section, with centred uppercase text that follows
+  the selected brand colour. Mobile has three lines and about 12% side gutters.
+- iPhone-specific scrolling is restricted to iPhone; other platforms use normal
+  document scrolling. Added guards leave zoomed panning and editable controls alone.
+
+VALIDATION
+The user selected Option A after comparing both approaches on an iPhone 16 Pro.
+The final package preserves that version's unzoomed iPhone geometry and carousel.
+Desktop and narrow-screen fallback layouts, menu/colour interaction and scrolling
+were checked locally. Platform and gesture guard logic was checked separately.
+Not every iPhone model, landscape layout or physical Android phone was tested.
+Safari's toolbar remains expanded in Option A's iPhone layout.
+
+After uploading, give the main page one quick check on your iPhone: initial view,
+scroll down and back up, and menu open/close. The original Option A test file is
+still available as the comparison version.
+
+The packaged photographs remain reference imagery for this design demo.
+This package has been prepared locally; publishing requires the manual upload.
