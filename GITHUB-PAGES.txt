@@ -1,0 +1,50 @@
+UNBOUND — GITHUB PAGES UPLOAD
+
+Keep the homepage filename exactly index.html. It does not need to match the
+repository name. The HTML already works at a repository subpath and contains
+all required images, styles and scripts. No HTML edits or build are needed.
+
+The link supplied was https://github.com/samjomo/unbound . For that repository,
+the default website address will be https://samjomo.github.io/unbound/ .
+You also referred to the repository as "Unbounded". If that is its actual name,
+use that exact repository name in the website address. This difference does not
+affect the HTML. Repository settings have not been accessed or changed.
+
+1. Unzip unbound-github-pages.zip.
+2. Upload index.html and .nojekyll directly to the top level of your repository.
+   Do not upload the ZIP itself, or place index.html inside an extra folder.
+   .nojekyll is a hidden, empty file; if it is not visible in your file picker,
+   you can create a file named .nojekyll directly in GitHub.
+3. In your repository, open Settings > Pages.
+4. Under Build and deployment, select Deploy from a branch.
+5. Select the branch containing index.html (usually main), choose /(root), Save.
+6. Wait for deployment, then use Visit site in the Pages settings screen.
+
+index.html: the complete website preview.
+.nojekyll: asks GitHub Pages to serve these static files without Jekyll.
+GITHUB-PAGES.txt: these instructions; uploading this file is optional.
+
+MOBILE VIEW
+At 767px wide and below, the two images stack vertically. Each fills half the
+screen height, with the seam exactly aligned to the centre of the UNBOUND logo.
+The mobile logo spans 79.36% of screen width, 28% larger than the previous mobile
+size, with proportional height. Desktop remains at 62% width.
+The same pairs and alternating timing are used on desktop and mobile: left/top
+changes first, right/bottom follows 1.2 seconds later, and the next left/top
+change follows 1.6 seconds after that. Images fill each panel with slight crop.
+The top-left hamburger opens a full-screen colour menu over a 50%-opacity black
+backdrop. Large uppercase labels scale with the screen and retain 10% side
+margins. Selecting a colour closes the menu. Desktop retains side-by-side images.
+No additional files, libraries or server configuration are required.
+
+The special repository name samjomo.github.io is needed only for an account
+homepage at https://samjomo.github.io/ . A project repository such as unbound
+can keep its own name; its homepage is still index.html.
+
+Official GitHub instructions checked 11 November 2026:
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+The packaged photos are reference imagery from Mother Tongue; replace them with
+owned or licensed imagery before public launch. This package has not been
+uploaded or published by the assistant.
